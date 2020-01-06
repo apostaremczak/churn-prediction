@@ -12,5 +12,18 @@
 >the current membership expiration date.
 
 
-Source: [Kaggle Challenge](https://www.kaggle.com/c/kkbox-churn-prediction-challenge/overview)
+Source: [Kaggle Competition](https://www.kaggle.com/c/kkbox-churn-prediction-challenge/overview)
 
+## Dataset
+
+Data used for this project can be found at [the competition's page](https://www.kaggle.com/c/kkbox-churn-prediction-challenge/data).
+(As the CSV files are up to 400 MB large, they are not a part of this repository).
+
+### Files used
+
+The following file names correspond to the data from Kaggle's website:
+
+* `members_v3.csv`
+* `sample_submission_v2.csv`
+* `train_v2.csv`
+* `transactions_v2.csv`
