@@ -1,2 +1,3 @@
-.idea/
-data/
+.idea
+data
+.ipynb_checkpoints
