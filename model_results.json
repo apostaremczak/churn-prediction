@@ -1,0 +1,88 @@
+{
+
+    "Unbalanced Logistic Regression": {
+
+        "Accuracy": 0.922,
+
+        "F1": 0.454,
+
+        "Precision": 0.751,
+
+        "Recall": 0.325
+
+    },
+
+    "Unbalanced Random Forest": {
+
+        "Accuracy": 0.927,
+
+        "F1": 0.482,
+
+        "Precision": 0.825,
+
+        "Recall": 0.34
+
+    },
+
+    "Weighted Decision Tree": {
+
+        "Accuracy": 0.85,
+
+        "F1": 0.422,
+
+        "Precision": 0.338,
+
+        "Recall": 0.562
+
+    },
+
+    "Weighted Random Forest": {
+
+        "Accuracy": 0.873,
+
+        "F1": 0.447,
+
+        "Precision": 0.387,
+
+        "Recall": 0.529
+
+    },
+
+    "Balanced Logistic Regression": {
+
+        "Accuracy": 0.717,
+
+        "F1": 0.67,
+
+        "Precision": 0.81,
+
+        "Recall": 0.571
+
+    },
+
+    "Balanced Decision Tree": {
+
+        "Accuracy": 0.766,
+
+        "F1": 0.762,
+
+        "Precision": 0.785,
+
+        "Recall": 0.74
+
+    },
+
+    "Balanced K-Nearest Neighbors": {
+
+        "Accuracy": 0.759,
+
+        "F1": 0.753,
+
+        "Precision": 0.802,
+
+        "Recall": 0.711
+
+    }
+
+}
+
