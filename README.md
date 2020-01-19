@@ -55,3 +55,42 @@ In order to run the scripts correctly, the data should be downloaded
 and located in `data/` directory, with their names unchanges.
 (Since the default download file format is compressed, they should be extracted
   to plain CSVs first.)
+
+
+## Data Analysis
+
+The project is divided into three Jupyter notebooks:
+
+* `01_Exploration_and_preprocessing`, in which I make initial dive into the data, preprocess it,
+as well as do feature selection.
+* `02_Model_training`, containing seven different classifiers and their training process.
+* `03_Evaluation_and_conclusion`, comparing the models trained before and choosing the best ones.
+
+
+## Models
+
+Seven different classifiers are taught:
+
+* Unbalanced Logistic Regression Classifier,
+* Unbalanced Random Forest Classifier,
+* Weighted Decision Tree Classifier,
+* Weighted Random Forest Classifier,
+* Balanced Logistic Regression Classifier,
+* Balanced Decision Tree Classifier,
+* Balanced K-Nearest Neighbors Classifier.
+
+Here's a table with their respective scores:
+
+![model_results_heatmap.png](model_results_heatmap.png)
+
+## Summary
+
+Although unbalanced models have the highes accuracy, the also have the lowest recall score, which is the most important metric for unbalanced data.
+
+Weighted decision tree models are doing a little bit better, but their precision is the lowest.
+
+The best results were, as expected, achieved by balanced models.
+
+Balanced Decision Tree and Balanced K-Nearest Neighbors have comparable results across all the metrics used, however, the latter took significantly longer time to learn. For this reason, I believe that a balanced decision tree should be used for further predictions.
+
+It's worth to mention that all the models used scaled datasets, which significantly decreased their learning times.
